@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  min-width: 50%;
+  min-height: 100vh;
+  background: linear-gradient(-100deg, #8B11EC, #ad72dd);
+  color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome h2 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.welcome p {
+  text-align: center;
+}
+
+.sign-in-button {
+  width: 100px;
+  height: 35px;
+  border: 1px solid #FAFAFA;
+  border-radius: 16px;
+  background: linear-gradient(-100deg, #8B11EC, #ad72dd);
+  color: #FAFAFA;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+a:link {
+  color: #FAFAFA;
+  text-decoration:none;
+}
+
+a:visited {
+  color: #FAFAFA;
+  text-decoration:none;
+}
+
+.create-account {
+  min-width: 50%;
+  min-height: 100vh;
+  background: #FAFAFA;
+  color: #0D0D0D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-account h2 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.social-media {
+  display: flex;
+  margin: 0 10px 15px;
+}
+
+.social-media.email {
+  border: 1px solid #0D0D0D;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.social-media.linkedin {
+  border: 1px solid #0D0D0D;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.social-media.github {
+  border: 1px solid #0D0D0D;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field input {
+  width: 200px;
+  height: 45px;
+  background: #E5E5E5;
+  border-radius: 5px;
+  margin: 0.5rem;
+  font-size: 0.8rem;
+  outline: none;
+  align-items: center;
+  padding: 10px;
+}
+
+.sign-up-button {
+  background: linear-gradient(45deg, #8B11EC, #ad72dd);
+  color: #FAFAFA;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  border-radius: 16px;
+  height: 35px;
+  width: 100px;
+}
+
+.hello-friend {
+  min-width: 50%;
+  min-height: 100vh;
+  background: linear-gradient(-100deg, #8B11EC, #ad72dd);
+  color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello-friend h2 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.hello-friend p {
+  text-align: center;
+}
+
+.sing-in {
+  min-width: 50%;
+  min-height: 100vh;
+  background: #FAFAFA;
+  color: #0D0D0D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sing-in h2 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.sign-up-border {
+  width: 100px;
+  height: 35px;
+  border: 1px solid #FAFAFA;
+  border-radius: 16px;
+  background: linear-gradient(-100deg, #8B11EC, #ad72dd);
+  color: #FAFAFA;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 560px) {
+  .sing-in-mobile {
+    display: none;
+  }
+
+  .sing-up-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .welcome {
+    display: none;
+  }
+
+  .hello-friend {
+    display: none;
+  }
+
+  .sing-in {
+    min-width: 100vh;
+    min-height: 100vh;
+  }
+
+  .create-account {
+    min-width: 100vh;
+    min-height: 100vh;
+  }
+
+  .link-mobile {
+    color: #0D0D0D;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    cursor: pointer;
+  }
+
+  a:link {
+    color: #0D0D0D;
+  }
+  
+  a:visited {
+    color: #0D0D0D;
+  }
+
+  .underline {
+    width: 300px;
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <title>Welcome</title>
+</head>
+<body>
+  <div class="container">
+    <div class="welcome">
+      <h2>Welcome back!</h2>
+      <p>To keep connected with us please login <br> with your personal info</p>
+      <button class="sign-in-button">
+        <a href="login.html">Sign in</a>
+      </button>
+    </div>
+
+    <div class="create-account">
+      <h2>Create Account</h2>
+
+      <div class="social-media">
+        <div class="social-media email">
+          <i data-feather="mail"></i>
+        </div>
+        <div class="social-media linkedin">
+          <i data-feather="linkedin"></i>
+        </div>
+        <div class="social-media github">
+          <i data-feather="github"></i>
+        </div>
+      </div>
+
+      <p>or use your email for registration</p>
+      <form action="">
+        <div class="input-field">
+          <input type="name" id="name" name="name"
+            placeholder="Name">
+        </div>
+        <div class="input-field">
+          <input type="email" id="email" name="email"
+            placeholder="E-mail">
+        </div>
+        <div class="input-field">
+          <input type="password" id="password" name="password"
+            placeholder="Password">
+        </div>
+        <button class="sign-up-button">Sign up</button>
+      </form>
+
+      <div class="sing-in-mobile">
+        <div class="underline"></div>
+        <p>Already have an account? 
+          <a class="link-mobile" href="login.html">Sign in</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>

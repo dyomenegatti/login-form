@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <title>Hello, Friend!</title>
+</head>
+<body>
+  <div class="container">
+    <div class="sing-in">
+      <h2>Sign in</h2>
+
+      <div class="social-media">
+        <div class="social-media email">
+          <i data-feather="mail"></i>
+        </div>
+        <div class="social-media linkedin">
+          <i data-feather="linkedin"></i>
+        </div>
+        <div class="social-media github">
+          <i data-feather="github"></i>
+        </div>
+      </div>
+
+      <p>or use your account</p>
+      <form action="">
+        <div class="input-field">
+          <input type="name" id="name" name="name"
+            placeholder="Name">
+        </div>
+        <div class="input-field">
+          <input type="password" id="password" name="password"
+            placeholder="Password">
+        </div>
+        <p>Forgout your password?</p>
+        <button class="sign-in-button">Sign in</button>
+      </form>
+
+      <div class="sing-up-mobile">
+        <div class="underline"></div>
+        <p>Start journey with us.  
+          <a class="link-mobile" href="index.html">Create account.</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="hello-friend">
+      <h2>Hello, Friend!</h2>
+      <p>Enter your personal details and start <br> journey with us</p>
+      <button class="sign-up-border">
+        <a href="index.html">Sign up</a>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>
